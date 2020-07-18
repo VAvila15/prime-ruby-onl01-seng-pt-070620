@@ -1,7 +1,8 @@
 def prime?(integer)
-  while 2 < integer
-    return false if integer % 2 == 0
-    integer += 1
+  n=2
+  while n < integer.prime
+    return false if integer % n == 0
+    n += 1
   end
   true
 end
